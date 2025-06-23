@@ -22,7 +22,7 @@ public class ConectaBanco {
     private String driver = "org.postgresql.Driver";//Responsável por identificar o serviço de banco de dados
     private String caminho = "jdbc:postgresql://localhost:5432/FLUXO_CAIXA";// responsavél por setar o local do banco de dados
     private String usuario = "postgres";
-    private String senha = "tenede98";
+    private String senha = "********";
     public Connection conn;//responsavél por realizar a conexão com o banco de dados
     
     public void conecta(){//metodo responsavél por realizar a conexão com o banco
